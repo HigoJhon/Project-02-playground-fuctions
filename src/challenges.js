@@ -14,8 +14,10 @@ let resultado = (base * height )/ 2
 } 
 
 // Desafio 3
-function splitSentence() {
+function splitSentence(text) {
   // seu código aqui
+   let frase = text.split(" ");
+  return frase
 }
 
 // Desafio 4
