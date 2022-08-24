@@ -6,13 +6,12 @@ if (comparador === true && comparador2 === true ){
     }
     return false;
   }
-  
-
-
-// Desafio 2
-function calcArea() {
+  // Desafio 2
+function calcArea(base , height) {
   // seu código aqui
-}
+let resultado = (base * height )/ 2 
+    return resultado
+} 
 
 // Desafio 3
 function splitSentence() {
