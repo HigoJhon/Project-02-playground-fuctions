@@ -24,10 +24,14 @@ function splitSentence(text) {
 function concatName() {
   // seu código aqui
 }
-
 // Desafio 5
-function footballPoints() {
+function footballPoints(win , ties) {
   // seu código aqui
+  let vitoria=win * 3  
+  let empate =ties* 1
+  
+  resultado = vitoria + empate
+  return resultado
 }
 
 // Desafio 6
