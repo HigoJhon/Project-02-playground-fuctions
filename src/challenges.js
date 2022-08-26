@@ -61,23 +61,37 @@ function highestCount(numeros) {
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
-  let resultado ;
-  let gato1 =Math.abs(cat1 - mouse) ; 
-  let gato2 =Math.abs(cat2 - mouse) ;
- 
+  let resultado;
+  let gato1 = Math.abs(cat1 - mouse);
+  let gato2 = Math.abs(cat2 - mouse);
+
   if (gato1 < gato2) {
     resultado = "cat1";
   } else if (gato2 < gato1) {
     resultado = "cat2";
   } else {
-    resultado = "os gatos trombam e o rato foge" ;
+    resultado = "os gatos trombam e o rato foge";
   }
   return resultado
 }
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function fizzBuzz(nume) {
+  // seu código aqui 
+
+  for (let index = 1; index <= nume.length; index += 1) {
+
+    if (index % 3 === 0 && numeros % 5 === 0) {
+      return "fizzBuzz"
+    } else if (index % 5 === 0) {
+      return "buzz"
+    } else if (index % 3 === 0) {
+      return "fizz"
+    } else {
+      return "bug!"
+    }
+  }
+
 }
 
 // Desafio 9
