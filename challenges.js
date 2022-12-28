@@ -6,6 +6,7 @@ function compareTrue(comparador, comparador2) {
   }
   return false;
 }
+
 // Desafio 2
 function calcArea(base, height) {
   // seu código aqui
