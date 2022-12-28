@@ -122,17 +122,3 @@ function techList(tech, name) {
   }
   return array;
 }
-
-module.exports = {
-  calcArea,
-  catAndMouse,
-  compareTrue,
-  concatName,
-  decode,
-  encode,
-  fizzBuzz,
-  footballPoints,
-  highestCount,
-  splitSentence,
-  techList,
-};
